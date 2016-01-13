@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="GDAL 1.11.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ogr="http://osgeo.org/gdal" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata><bounds minlat="50.106992905554385" minlon="-122.985234355736807" maxlat="50.117656949999997" maxlon="-122.978458922083320"/></metadata>              
+<wpt lat="50.112660109999986" lon="-122.982078519999988">
+  <name>GC7</name>
+  <extensions>
+    <ogr:tessellate>-1</ogr:tessellate>
+    <ogr:extrude>-1</ogr:extrude>
+    <ogr:visibility>-1</ogr:visibility>
+  </extensions>
+</wpt>
+<wpt lat="50.110553769999989" lon="-122.984117469999973">
+  <name>GC6</name>
+  <extensions>
+    <ogr:tessellate>-1</ogr:tessellate>
+    <ogr:extrude>-1</ogr:extrude>
+    <ogr:visibility>-1</ogr:visibility>
+  </extensions>
+</wpt>
+<wpt lat="50.11266617" lon="-122.982570619999962">
+  <name>GC5</name>
+  <extensions>
+    <ogr:tessellate>-1</ogr:tessellate>
+    <ogr:extrude>-1</ogr:extrude>
+    <ogr:visibility>-1</ogr:visibility>
+  </extensions>
+</wpt>
+<wpt lat="50.11476491" lon="-122.981396809999978">
+  <name>GC4</name>
+  <extensions>
+    <ogr:tessellate>-1</ogr:tessellate>
+    <ogr:extrude>-1</ogr:extrude>
+    <ogr:visibility>-1</ogr:visibility>
+  </extensions>
+</wpt>
+<wpt lat="50.116368609999988" lon="-122.98119897">
+  <name>GC3</name>
+  <extensions>
+    <ogr:tessellate>-1</ogr:tessellate>
+    <ogr:extrude>-1</ogr:extrude>
+    <ogr:visibility>-1</ogr:visibility>
+  </extensions>
+</wpt>
+<wpt lat="50.11765695" lon="-122.981258429999968">
+  <name>GC2</name>
+  <extensions>
+    <ogr:tessellate>-1</ogr:tessellate>
+    <ogr:extrude>-1</ogr:extrude>
+    <ogr:visibility>-1</ogr:visibility>
+  </extensions>
+</wpt>
+<wpt lat="50.109879579045945" lon="-122.981391425573875">
+  <name>GC1</name>
+  <extensions>
+    <ogr:tessellate>-1</ogr:tessellate>
+    <ogr:extrude>-1</ogr:extrude>
+    <ogr:visibility>-1</ogr:visibility>
+  </extensions>
+</wpt>
+<wpt lat="50.106992905554385" lon="-122.985234355736807">
+  <name>GC9</name>
+  <extensions>
+    <ogr:tessellate>-1</ogr:tessellate>
+    <ogr:extrude>-1</ogr:extrude>
+    <ogr:visibility>-1</ogr:visibility>
+  </extensions>
+</wpt>
+<wpt lat="50.115244033433193" lon="-122.97845892208332">
+  <name>GC11</name>
+  <extensions>
+    <ogr:tessellate>-1</ogr:tessellate>
+    <ogr:extrude>-1</ogr:extrude>
+    <ogr:visibility>-1</ogr:visibility>
+  </extensions>
+</wpt>
+<wpt lat="50.114674981061007" lon="-122.978804564019271">
+  <name>GC10</name>
+  <extensions>
+    <ogr:tessellate>-1</ogr:tessellate>
+    <ogr:extrude>-1</ogr:extrude>
+    <ogr:visibility>-1</ogr:visibility>
+  </extensions>
+</wpt>
+<wpt lat="50.11728500152558" lon="-122.98122124965893">
+  <name>GC8</name>
+  <extensions>
+    <ogr:tessellate>-1</ogr:tessellate>
+    <ogr:extrude>-1</ogr:extrude>
+    <ogr:visibility>-1</ogr:visibility>
+  </extensions>
+</wpt>
+</gpx>
