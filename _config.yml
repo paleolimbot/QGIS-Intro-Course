@@ -1,3 +1,15 @@
+# variables
+topnav_title: An Introduction to QGIS
+homepage_title: QGIS - an introduction
+site_title: An Introduction to QGIS
+company_name: Dewey Dunnington
+footer_image_location: ../common_images/company_logo.png
+github_editme_path: paleolimbot/QGIS-Intro-Course/edit/gh-pages
+sidebar_tagline: Contents
+sidebar_version: January 17, 2016
+theme_file: theme-blue.css
+
+
 # project definitions
 project: qgis
 audience: designers
@@ -5,29 +17,13 @@ product: doc
 platform: all
 version: all
 output: web
-#destination: _site
-topnav_title: An Introduction to QGIS
-homepage_title: QGIS - an introduction
-site_title: An Introduction to QGIS
 project_folder: qgis
-company_name: Fish & Whistle
-footer_image_location: ../common_images/company_logo.png
-github_editme_path: paleolimbot/QGIS-Intro-Course/edit/gh-pages
-# disqus_shortname: idrbwjekyll
-# variables
-
-sidebar_tagline: Contents
-sidebar_version: January 17, 2016
-theme_file: theme-blue.css
-pdf_file_name: qgis_2016-01-17_pdf.pdf
-
 port: 4009
 
 exclude:
   - _site
   - _drafts
   - configs/
-  - doc/qgis_writers*
 
 # same for all
 host: 127.0.0.1
