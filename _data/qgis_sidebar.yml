@@ -6,11 +6,14 @@ entries:
   subcategories:
   - title: Introduction to GIS
     items:
-    - title: Introduction
-      url: /mydoc/home.html
+    - title: Introduction to GIS
+      url: /qgis/00_intro.html
 
-    - title: Supported features
-      url: /mydoc/mydoc_supported_features.html
+    - title: Layers and Geographic Data
+      url: /qgis/00a_layers_data.html
+
+    - title: Coordinate Reference Systems
+      url: /qgis/00b_crs.html
 
   - title: Your first map
     audience: writers, designers
