@@ -16,7 +16,7 @@
             <ul class="nav navbar-nav navbar-right">
                 <!-- entries without drop-downs appear here -->
                 <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
-                {% include custom/conditions.html %}
+                {% include conditions.html %}
 
                 {% for entry in topnav %}
                 {% for subcategory in entry.subcategories %}
