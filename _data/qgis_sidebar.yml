@@ -36,4 +36,10 @@ entries:
 
     - title: Raster Styles
       url: /qgis/05b_mow_raster.html
+
+  - title: Online Basemaps
+
+    items:
+    - title: The Quick Map Services Plugin
+      url: /qgis/06_qms.html
  
