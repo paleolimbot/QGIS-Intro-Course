@@ -43,3 +43,8 @@ entries:
     - title: The Quick Map Services Plugin
       url: /qgis/06_qms.html
  
+  - title: Importing Data
+
+    items:
+    - title: CSV, GPX, and KML Files
+      url: /qgis/07_datain.html
