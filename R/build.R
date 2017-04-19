@@ -4,6 +4,9 @@ source("R/tutorial_rmd_skeleton.R")
 
 build_release <- function(out = "../QGIS-Intro.zip", overwrite = FALSE) {
   if(grepl("\\.zip$", out)) {
+    # make sure out doesn't exist
+    if(!overwrite && file.exists(out)) stop(out, " already exists")
+    
     # out_directory is a tempfile here
     out_directory <- tempfile()[1]
     on.exit(unlink(out_directory, recursive = TRUE))
@@ -48,17 +51,28 @@ build_release <- function(out = "../QGIS-Intro.zip", overwrite = FALSE) {
   
   # compress if out is a zip file
   if(!is.null(zipfile)) {
+    
     # creating zip requires working directory to be set
     prev_wd <- getwd()
-    setwd(out_directory)
+    if(!grepl("^/.*", zipfile)) {
+      zipfile <- file.path(getwd(), zipfile)
+    }
     
     # use utils::zip to compress
-    tmpzip <- tempfile()[1]
+    setwd(out_directory)
+    on.exit(setwd(prev_wd), add = TRUE)
+    
+    tmpzip <- "zipfile.zip"
     try(utils::zip(tmpzip, list.files(recursive = TRUE)))
-    unlink(tmpzip)
-    setwd(prev_wd)
     
     # move file to final location
     file.rename(tmpzip, zipfile)
+    
+    # make sure tmpzip doesn't exist
+    try(unlink(tmpzip))
   }
+  
+  out
 }
+
+build_release()

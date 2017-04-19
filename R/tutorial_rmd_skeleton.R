@@ -1,13 +1,33 @@
 
 # renders all documents in the Tutorial_markdown folder to the Tutorials folder
 tutorial_render_all <- function(output_dir, ...) {
+  # set alternate working directory and cleanup at the end
+  # or else a lot of empty folders are created
+  original_working_dir <- getwd()
+  # check for absolute versus relative path for output_dir
+  if(!grepl("^/.*", output_dir)) {
+    output_dir <- file.path(getwd(), output_dir)
+  }
   rmds <- list.files("Tutorial_markdown", "*.Rmd", full.names = TRUE)
+  rmds <- file.path(getwd(), rmds)
+  
+  working_dir <- tempfile()[1]
+  dir.create(working_dir)
+  setwd(working_dir)
+  
+  on.exit({
+    setwd(original_working_dir)
+    unlink(working_dir, recursive = TRUE)
+  })
+  
+  # render all the markdown files
   vapply(rmds, rmarkdown::render, output_dir = output_dir, ..., FUN.VALUE = character(1))
 } 
 
 # creates a skeleton for tutorial .Rmd files from a folder of images
 tutorial_rmd_skeleton <- function(directory, rmd_file_name, title, output_type = "github_document",
                                   overwrite = FALSE) {
+  
   # check if the directory exists
   if(!dir.exists(directory)) stop(directory, " does not exist")
   
