@@ -1,0 +1,46 @@
+---
+title: "06 QGIS Basemap Data"
+---
+
+
+
+![Slide01](06 QGIS Basemap Data/Slide01.jpg)
+
+
+
+![Slide02](06 QGIS Basemap Data/Slide02.jpg)
+
+
+
+![Slide03](06 QGIS Basemap Data/Slide03.jpg)
+
+
+
+![Slide04](06 QGIS Basemap Data/Slide04.jpg)
+
+
+
+![Slide05](06 QGIS Basemap Data/Slide05.jpg)
+
+
+
+![Slide06](06 QGIS Basemap Data/Slide06.jpg)
+
+
+
+![Slide07](06 QGIS Basemap Data/Slide07.jpg)
+
+
+
+![Slide08](06 QGIS Basemap Data/Slide08.jpg)
+
+
+
+![Slide09](06 QGIS Basemap Data/Slide09.jpg)
+
+
+
+![Slide10](06 QGIS Basemap Data/Slide10.jpg)
+
+
+

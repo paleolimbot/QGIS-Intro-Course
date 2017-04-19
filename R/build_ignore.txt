@@ -1,0 +1,5 @@
+^QGIS-Intro\\.Rproj$
+^Tutorial_.*$
+^R/.*$
+^*.?\\.Rmd$
+^build_release$
