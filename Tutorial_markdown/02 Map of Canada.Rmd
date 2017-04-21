@@ -1,62 +1,85 @@
 ---
-title: "02 Map of Canada"
+title: "Map of Canada"
 ---
 
+Go back to the [course outline](00_Course_outline.html)
 
+## Purpose
+
+* Learn several ways to add data to a QGIS project
+* Learn how to pan, zoom, and identify the attributes of various features
+* Learn how to save a QGIS project file
+
+## Assignment
+
+There is no assignment for this tutorial.
+
+## Tutorial
+
+### Adding Data
+
+Add a "vector layer":
 
 ![Slide01](02 Map of Canada/Slide01.jpg)
 
-
+Browse for a file.
 
 ![Slide02](02 Map of Canada/Slide02.jpg)
 
-
+Choose a file.
 
 ![Slide03](02 Map of Canada/Slide03.jpg)
 
-
+Remove the layer
 
 ![Slide04](02 Map of Canada/Slide04.jpg)
 
-
+Another way to add a layer is to drag and drop from the file manager. Always drag the ".shp" file.
 
 ![Slide05](02 Map of Canada/Slide05.jpg)
 
+### Basic Map Tools
 
+Useful tools for getting around the map are the "pan" tool (the hand), the "zoom" tools, and the "identify" tool. Choose the "identify" tool.
 
 ![Slide06](02 Map of Canada/Slide06.jpg)
 
-
+Click on one of the "features" on the map. A list of "attriutes" should appear in the QGIS window.
 
 ![Slide07](02 Map of Canada/Slide07.jpg)
 
-
+Attribute values can also be accessed through the **attribute table**. Right click on the layer in the *Layers* window, and choose *Open Attribute Table*.
 
 ![Slide08](02 Map of Canada/Slide08.jpg)
 
-
+In the **attribute table**, **features** are in rows, and **attributes** are in columns.
 
 ![Slide09](02 Map of Canada/Slide09.jpg)
 
-
+Click on one of the features to **select** that feature. Next, click on the *Zoom Selected* icon to zoom the map to show that **feature**.
 
 ![Slide10](02 Map of Canada/Slide10.jpg)
 
-
+To unselect the feature and return the map to its original position, chose *Deselect Features from All Layers* and then *Zoom Full*.
 
 ![Slide11](02 Map of Canada/Slide11.jpg)
 
-
+The map should be zoomed out to all of Canada.
 
 ![Slide12](02 Map of Canada/Slide12.jpg)
 
+### QGIS Projects
 
+QGIS *Projects* save the state of the map, references to the data that are on your map, and the styles you've defined for your layers. *Saving a project will not save your data*. For this reason, it's usually a good idea to keep your QGIS project file and your spatial data in the same folder. To save the map of canada project, choose *Save As* from the *Project* menu.
 
 ![Slide13](02 Map of Canada/Slide13.jpg)
 
-
+And enter a file to which the project should be saved:
 
 ![Slide14](02 Map of Canada/Slide14.jpg)
 
+Were you to open the project file again, the map should appear exactly as you left it, provided that you didn't move any of the spatial data relative to the project file.
 
+### Sequel
 
+Keep this map open, you'll be using it in the next section, [Coordinate Reference Systems](03_Map_of_Canada_CRS.html).
