@@ -21,7 +21,8 @@ tutorial_render_all <- function(output_dir, ...) {
   })
   
   # render all the markdown files
-  vapply(rmds, rmarkdown::render, output_dir = output_dir, ..., FUN.VALUE = character(1))
+  vapply(rmds, rmarkdown::render, output_dir = output_dir, ..., 
+         FUN.VALUE = character(1))
 } 
 
 # creates a skeleton for tutorial .Rmd files from a folder of images

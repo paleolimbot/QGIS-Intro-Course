@@ -47,7 +47,8 @@ build_release <- function(out = "../QGIS-Intro.zip", overwrite = FALSE) {
   file.copy(course_material, file.path(out_directory, course_material))
   
   # build tutorials to out_directory/Tutorials
-  tutorial_render_all(file.path(out_directory, "Tutorials"))
+  tutorial_render_all(file.path(out_directory, "Tutorials"),
+                      output_format = rmarkdown::html_document(fig_caption = FALSE))
   
   # compress if out is a zip file
   if(!is.null(zipfile)) {
