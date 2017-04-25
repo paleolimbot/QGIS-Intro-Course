@@ -1,74 +1,100 @@
 ---
-title: "03 Map of Canada CRS"
+title: "Map of Canada CRS"
 ---
 
+Go back to the [course outline](00_Course_outline.html) or the [Map of Canada](02_Map_of_Canada.html) tutorial.
 
+## Purpose
+
+* Demonstrate the difference between different **projections** and how to switch between them in QGIS.
+* Demonstrate how to change the **visibility** and order of **layers**.
+* Illustrate the difference between **vector** and **raster** layers.
+
+## Assignment
+
+There is no assignment for this module.
+
+## Tutorial
+
+### Changing the Project CRS
+
+This tutorial starts at the end of the [Map of Canada](02_Map_of_Canada.html) tutorial. If you don't already have this window open, you can add the "Canada-WGS84.shp" layer from the "02-03 First Map Data" folder within the tutorial data directory.
+
+To examine or change the **Project CRS**, click the globe-looking thing in the lower right corner of the QGIS window.
 
 ![Slide01](03 Map of Canada CRS/Slide01.jpg)
 
-
+This will open a window enabling you to choose another CRS. A commonly used CRS is the "World Mercator" projection. To find it, type "mercator" into the *Filter* text box, and select "Word Mercator" from the list of CRSs. Select *OK* to apply the change.
 
 ![Slide02](03 Map of Canada CRS/Slide02.jpg)
 
-
+The shape of your map should now appear different. To change the *Project CRS* again, click the globe in the lower right corner of the QGIS window.
 
 ![Slide03](03 Map of Canada CRS/Slide03.jpg)
 
-
+The Mercator projection exaggerates areas in the far north, and is usually not appropriate for a nationwide map of Canada. There are several Canadian-specific projections, one of which is the "Canada Albers Equal-Area Conic". This projection provides a reasonable representation of all of Canada.
 
 ![Slide04](03 Map of Canada CRS/Slide04.jpg)
 
-
+Your map should now appear like this. To change the *Project CRS* yet again, click the globe in the lower right corner of the QGIS window.
 
 ![Slide05](03 Map of Canada CRS/Slide05.jpg)
 
-
+Smaller-scale maps often use the **Universal Transverse Mercator** projection, which approximates small areas well. Nova Scotia is often represented by UTM Zone 20. Choose the "WGS 85 / UTM zone 20N" from the CRS list.
 
 ![Slide06](03 Map of Canada CRS/Slide06.jpg)
 
-
+Notice how the meridian surrounding Nova Scotia is represented well by the projection, but other areas are not. To illustrate the effect of chaging the UTM Zone, we will change the Project CRS again.
 
 ![Slide07](03 Map of Canada CRS/Slide07.jpg)
 
-
+British Columbia is often represented in UTM Zone 10N. Choose this CRS from the CRS list.
 
 ![Slide08](03 Map of Canada CRS/Slide08.jpg)
 
-
+UTM Zone 10 represents British Columbia well, but other areas are distorted. Finally, we will change the CRS one last time.
 
 ![Slide09](03 Map of Canada CRS/Slide09.jpg)
 
-
+For the rest of the tutorial, we will use the "World Mercator" projection. You can choose this from your recently used CRS list or by typing "mercator" into the *Filter* text box.
 
 ![Slide10](03 Map of Canada CRS/Slide10.jpg)
 
-
+Your map should now look like this.
 
 ![Slide11](03 Map of Canada CRS/Slide11.jpg)
 
+### Raster Layers
 
+So far we have only worked with one **layer** that is a **vector** layer. To add a **raster** layer, choose *Add Raster Layer* from the toolbar on the left (or the *Layers* menu), and select "canada_map_raster.tif" from the "02-03 First Map Data" folder.
 
 ![Slide12](03 Map of Canada CRS/Slide12.jpg)
 
-
+When more than one **layer** is in a project, they can be ordered such that one is drawn before the other. Drag the "canada_map_raster" layer below the other layer to change the draw order.
 
 ![Slide13](03 Map of Canada CRS/Slide13.jpg)
 
-
+You can also toggle the visibility of a layer. To toggle the visibility, click the check mark beside the layer name.
 
 ![Slide14](03 Map of Canada CRS/Slide14.jpg)
 
-
+To toggle the visibility back on, click the box again.
 
 ![Slide15](03 Map of Canada CRS/Slide15.jpg)
 
+### Identify with Raster Layers
 
+So far, we have only used the *Identify* tool with vector layers. The tool also works with raster layers.
+
+Use the zoom tool to zoom in to Nova Scotia (we are zooming in so that you can see that a raster dataset is a "grid" of values). Choose the *Identify* tool.
 
 ![Slide16](03 Map of Canada CRS/Slide16.jpg)
 
-
+When the *Identify* tool is selected and there is more than one layer, you need to tell QGIS which layer to *Identify* from by selecting it in the *Layers* panel. Then, click somewhere on the map. The values that appear ("Band 1", "Band 2", and "Band 3") are the values contained for that cell in the raster. In this case, the values are red, green, and blue values. In other cases, this value will be an elevation, or other continuous parameter.
 
 ![Slide17](03 Map of Canada CRS/Slide17.jpg)
 
+## Sequel
 
+We will use this map for the next module, on [using the print composer](04_The_Print_Composer.html)
 

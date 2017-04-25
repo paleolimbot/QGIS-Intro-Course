@@ -18,7 +18,7 @@ There is no assignment for this tutorial.
 
 ### Adding Data
 
-Add a "vector layer":
+Add a "vector layer".
 
 ![Slide01](02 Map of Canada/Slide01.jpg)
 
@@ -26,25 +26,27 @@ Browse for a file.
 
 ![Slide02](02 Map of Canada/Slide02.jpg)
 
-Choose a file.
+Choose "Canada-WGS84.shp" from the "02-03 First Map Data" folder within the tutorial data directory.
 
 ![Slide03](02 Map of Canada/Slide03.jpg)
 
-Remove the layer
+Remove the layer.
 
 ![Slide04](02 Map of Canada/Slide04.jpg)
 
-Another way to add a layer is to drag and drop from the file manager. Always drag the ".shp" file.
+Another way to add a layer is to drag and drop from the file manager. Drag the "Canada-WGS84.shp" from the "02-03 First Map Data" folder into the "Layers" panel (you will always drag the ".shp" file when adding vector layers in this way).
 
 ![Slide05](02 Map of Canada/Slide05.jpg)
 
 ### Basic Map Tools
 
-Useful tools for getting around the map are the "pan" tool (the hand), the "zoom" tools, and the "identify" tool. Choose the "identify" tool.
+Useful tools for getting around the map are the "pan" tool (the hand), the "zoom" tools, and the "identify" tool. 
+
+Choose the "identify" tool.
 
 ![Slide06](02 Map of Canada/Slide06.jpg)
 
-Click on one of the "features" on the map. A list of "attriutes" should appear in the QGIS window.
+Click on one of the "features" on the map. A list of "attributes" should appear in the QGIS window.
 
 ![Slide07](02 Map of Canada/Slide07.jpg)
 
@@ -70,11 +72,13 @@ The map should be zoomed out to all of Canada.
 
 ### QGIS Projects
 
-QGIS *Projects* save the state of the map, references to the data that are on your map, and the styles you've defined for your layers. *Saving a project will not save your data*. For this reason, it's usually a good idea to keep your QGIS project file and your spatial data in the same folder. To save the map of canada project, choose *Save As* from the *Project* menu.
+QGIS *Projects* save the state of the map, references to the data that are on your map, and the styles you've defined for your layers. *Saving a project will not save your data*. For this reason, it's usually a good idea to keep your QGIS project file and your spatial data in the same folder. 
+
+To save the map of canada project, choose *Save As* from the *Project* menu.
 
 ![Slide13](02 Map of Canada/Slide13.jpg)
 
-And enter a file to which the project should be saved:
+Enter a file to which the project should be saved (save it within the "02-03 First Map Data folder").
 
 ![Slide14](02 Map of Canada/Slide14.jpg)
 
