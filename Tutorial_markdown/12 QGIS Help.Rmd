@@ -1,0 +1,20 @@
+---
+title: "QGIS Resources"
+---
+
+Go back to the [course outline](00_Course_outline.html) or the [advanced vector analysis](11_Advanced_Vector_Analysis.html) tutorial.
+
+## QGIS Resources
+
+A few notable QGIS resources in the world:
+
+* The [QGIS Training Manual](https://docs.qgis.org/2.14/en/docs/training_manual/)
+* [A Gentle Introduction to GIS](https://docs.qgis.org/2.14/en/docs/gentle_gis_introduction/index.html)
+* The [University of Waterloo QGIS Guide](https://uwaterloo.ca/library/geospatial/sites/ca.library.geospatial/files/uploads/files/creating_maps_in_qgis_tutorial_2014-wip_1.pdf)
+* [GIS Stack Exchange](https://gis.stackexchange.com/questions/tagged/qgis)
+
+...and many more that you can find by searching for specific help.
+
+## Sequel
+
+That's it for the tutorials! The next module is to build your own map.

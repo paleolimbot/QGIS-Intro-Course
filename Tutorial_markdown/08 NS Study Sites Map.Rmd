@@ -1,5 +1,5 @@
 ---
-title: "08 NS Study Sites Map"
+title: "NS Study Sites Map"
 ---
 
 Go back to the [course outline](00_Course_outline.html) or the [importing data](07_Importing_Data.html) tutorial.

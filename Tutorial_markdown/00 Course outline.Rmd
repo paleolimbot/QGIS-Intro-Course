@@ -1,0 +1,65 @@
+---
+title: "Introduction to GIS Short Course"
+date: "April 2017"
+---
+
+## Day 1: Introduction to GIS & Making Maps
+
+1. Introduction to GIS Lecture
+    * What is Geographic Information?
+    * Representing geographic data
+    * Vector and Raster data
+    * Install QGIS
+
+2. [Map of Canada Tutorial](02_Map_of_Canada.html)
+    * Adding data to QGIS
+    * How to pan, zoom, and identify
+    * Attributes and Features
+    * Saving a QGIS Project
+
+3. [Coordinate Reference Systems](03_Map_of_Canada_CRS.html)
+    * What are Coordinate Reference Systems & Projections?
+    * Changing CRSs in QGIS
+    * Using the *Identify* tool for raster layers
+
+4. [The Print Composer](04_The_Print_Composer.html)
+    * Saving and printing your map using a Print Composer
+    * Creating and managing multiple Print Composers
+
+5. [Map of Wolfville](05_Map_of_Wolfville.html)
+    * Different ways to display point, line, and polygon data
+    * Displaying raster data
+
+6. [Getting GIS Data Online & Basemaps](06_QGIS_Basemap_Data.html)
+    * Some online GIS data sources
+    * Using the Quick Map Services Plugin as a basemap
+
+7. [Importing data into QGIS](07_Importing_Data.html)
+    * Import data from a spreadsheet
+    * Import data from a GPS
+    * Import data from Google Earth
+    * Export data from Google Earth/Spreadsheet
+
+## Day 2: Creating, Manipulating, and Analyzing GIS Data
+
+8. [Creating a Nova Scotia Study Site Map](08_NS_Study_Sites_Map.html)
+    * Import KML data from Google Earth to create a study site map in Nova Scotia
+    
+9. [Creating Vector Layers](09_Creating_Editing_Features.html)
+    * Create line data with attributes
+    * Edit and move existing data
+    
+10. [Interpolation & Contouring](10_Interpolation_Contouring.html)
+    * Contour point data using interpolation and contouring
+    * Learn how to use the processing toolbox to manipulate perform analyses on vector and raster layers.
+    
+11. [Vector Processing](11_Advanced_Vector_Analysis.html)
+    * Import census data and use the Join feature to examine demographics in the Halifax Regional Municipality
+    * Use the select by expression tool to select specific pieces of your vector data
+    * Use a graduated layer style to create a map highlighting spatial differences in demographics.
+    
+12. [QGIS Resources](12_QGIS_Help.html)
+    * Go over resources for QGIS online.
+    
+13. Participant Maps
+    * Interactive session going over other applications of GIS to participant projects.
